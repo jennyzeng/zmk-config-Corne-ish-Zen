@@ -72,9 +72,9 @@
                 lower_layer {
                         label = "LOWER";
                         bindings = <
-   &trans  &kp N1               &kp N2           &kp N3                 &kp N4                  &kp N5                 &kp N6           &kp N7          &kp N8                  &kp  N9          &kp N0         &trans
+   &kp ESC  &kp N1               &kp N2           &kp N3                 &kp N4                  &kp N5                 &kp N6           &kp N7          &kp N8                  &kp  N9          &kp N0         &trans
    &trans  &kp _LEFT_SPACE      &kp _RIGHT_SPACE &kp _LEFT_TAB          &kp _RIGHT_TAB          &kp _ZOOM_IN           &kp LEFT         &kp DOWN        &kp UP                  &kp RIGHT        &kp HOME       &trans
-   &trans  &kp PAGE_UP          &kp PAGE_DOWN    &kp _BROWSER_BACK      &kp _BROWSER_FORWARD    &kp _ZOOM_OUT          &kp _LEFT_WORD   &kp _RIGHT_WORD &kp _MISSION_CONTROL    &kp _TOGGLE_DOCK &kp _DESKTOP   &trans
+   &kp _MISSION_CONTROL  &kp PAGE_UP          &kp PAGE_DOWN    &kp _BROWSER_BACK      &kp _BROWSER_FORWARD    &kp _ZOOM_OUT          &kp _LEFT_WORD   &kp _RIGHT_WORD &kp _MISSION_CONTROL    &kp _TOGGLE_DOCK &kp _DESKTOP   &trans
                &trans &trans &trans   &trans &mo ADJUST &trans 
                         >;
                 };
